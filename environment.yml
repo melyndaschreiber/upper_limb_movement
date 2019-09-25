@@ -1,49 +1,290 @@
-name: ulm
+name: mne
 channels:
-- defaults
+  - conda-forge
+  - defaults
 dependencies:
-- python>=3.5
-- pip
-- mkl
-- numpy
-- scipy
-- matplotlib
-- numba
-- pyqt>=5.9
-- pandas>=0.18
-- xlrd
-- scikit-learn
-- h5py
-- pillow
-- statsmodels
-- jupyter
-- pytest
-- pytest-cov
-- pytest-mock
-- pytest-timeout
-- joblib
-- psutil
-- numpydoc
-- flake8
-- spyder
-- numexpr
-- traits>=4.6.0
-- pyface>=6
-- traitsui>=6
-- testpath<0.4
-- pip:
-  - mne==0.16
-  - vtk
-  - pyvista>=0.21.3
-  - mayavi
-  - PySurfer[save_movie]
-  - dipy --only-binary dipy
-  - nibabel
-  - nilearn
-  - neo
-  - pytest-faulthandler
-  - pytest-sugar
-  - pydocstyle
-  - codespell
-  - python-picard
-  - panel
+  - ffmpeg=4.1=h8fefcd1_0
+  - freetype=2.8.1=ha63716d_1
+  - glew=2.0.0=he025d50_1002
+  - kivy=1.10.1=py36h47ee06f_1
+  - sdl2=2.0.8=h6538335_1001
+  - sdl2_image=2.0.2=0
+  - sdl2_mixer=2.0.1=h6538335_1
+  - sdl2_ttf=2.0.14=h8909db8_1
+  - smpeg2=2.0.0=h6538335_1
+  - _r-mutex=1.0.0=mro_2
+  - alabaster=0.7.10=py36hcd07829_0
+  - asn1crypto=0.24.0=py36_0
+  - astroid=1.6.3=py36_0
+  - attrs=18.1.0=py36_0
+  - babel=2.5.3=py36_0
+  - backcall=0.1.0=py36_0
+  - blas=1.0=mkl
+  - bleach=2.1.3=py36_0
+  - ca-certificates=2019.1.23=0
+  - certifi=2019.3.9=py36_0
+  - cffi=1.11.5=py36h945400d_0
+  - chardet=3.0.4=py36h420ce6e_1
+  - cloudpickle=0.5.3=py36_0
+  - colorama=0.3.9=py36h029ae33_0
+  - coverage=4.5.1=py36hfa6e2cd_0
+  - cryptography=2.6.1=py36h7a1dbc1_0
+  - cycler=0.10.0=py36h009560c_0
+  - decorator=4.3.0=py36_0
+  - docutils=0.14=py36h6012d8f_0
+  - entrypoints=0.2.3=py36hfd66bb0_2
+  - expat=2.2.5=hcc4222d_0
+  - flake8=3.5.0=py36_1
+  - future=0.16.0=py36_1
+  - h5py=2.7.1=py36he54a1c3_0
+  - hdf5=1.10.1=h98b8871_1
+  - html5lib=1.0.1=py36h047fa9f_0
+  - icc_rt=2017.0.4=h97af966_0
+  - icu=58.2=ha66f8fd_1
+  - idna=2.6=py36h148d497_1
+  - imagesize=1.0.0=py36_0
+  - intel-openmp=2018.0.0=8
+  - ipykernel=4.8.2=py36_0
+  - ipython=6.4.0=py36_0
+  - ipython_genutils=0.2.0=py36h3c5d0ee_0
+  - ipywidgets=7.2.1=py36_0
+  - isort=4.3.4=py36_0
+  - jedi=0.12.0=py36_1
+  - jinja2=2.10=py36h292fed1_0
+  - joblib=0.11=py36_0
+  - jpeg=9b=hb83a4c4_2
+  - jsonschema=2.6.0=py36h7636477_0
+  - jupyter=1.0.0=py36_4
+  - jupyter_client=5.2.3=py36_0
+  - jupyter_console=5.2.0=py36h6d89b47_1
+  - jupyter_core=4.4.0=py36h56e9d50_0
+  - kiwisolver=1.0.1=py36h12c3424_0
+  - lazy-object-proxy=1.3.1=py36hd1c21d2_0
+  - libiconv=1.15=h1df5818_7
+  - libpng=1.6.37=h2a8f88b_0
+  - libsodium=1.0.16=h9d3ae62_0
+  - libtiff=4.0.9=hb8ad9f9_1
+  - libxml2=2.9.8=hadb2253_1
+  - m2w64-gcc-libgfortran=5.3.0=6
+  - m2w64-gcc-libs=5.3.0=7
+  - m2w64-gcc-libs-core=5.3.0=7
+  - m2w64-gmp=6.1.0=2
+  - m2w64-libwinpthread-git=5.0.0.4634.697f757=2
+  - markupsafe=1.0=py36h0e26971_1
+  - matplotlib=2.2.2=py36h153e9ff_1
+  - mccabe=0.6.1=py36hb41005a_1
+  - mistune=0.8.3=py36hfa6e2cd_1
+  - mkl=2018.0.2=1
+  - mkl_fft=1.0.1=py36h452e1ab_0
+  - mkl_random=1.0.1=py36h9258bd6_0
+  - more-itertools=4.1.0=py36_0
+  - mro-base=3.5.1=3
+  - mro-base_impl=3.5.1=0
+  - msys2-conda-epoch=20160418=1
+  - nbconvert=5.3.1=py36h8dc0fde_0
+  - nbformat=4.4.0=py36h3a5bc1b_0
+  - nose=1.3.7=py36h1c3779e_2
+  - notebook=5.5.0=py36_0
+  - numexpr=2.6.5=py36hcd2f87e_0
+  - numpy=1.14.3=py36h9fa60d3_1
+  - numpy-base=1.14.3=py36h555522e_1
+  - numpydoc=0.8.0=py36_0
+  - olefile=0.45.1=py36_0
+  - openssl=1.1.1b=he774522_1
+  - packaging=17.1=py36_0
+  - pandas=0.23.0=py36h830ac7b_0
+  - pandoc=1.19.2.1=hb2460c7_1
+  - pandocfilters=1.4.2=py36h3ef6317_1
+  - parso=0.2.0=py36_0
+  - patsy=0.5.0=py36_0
+  - pickleshare=0.7.4=py36h9de030f_0
+  - pillow=5.1.0=py36h0738816_0
+  - pip=10.0.1=py36_0
+  - pluggy=0.6.0=py36hc7daf1e_0
+  - prompt_toolkit=1.0.15=py36h60b8f86_0
+  - psutil=5.4.5=py36hfa6e2cd_0
+  - py=1.5.3=py36_0
+  - pycodestyle=2.3.1=py36h7cc55cd_0
+  - pycparser=2.18=py36hd053e01_1
+  - pyface=6.0.0=py36_0
+  - pyflakes=1.6.0=py36h0b975d6_0
+  - pygments=2.2.0=py36hb010967_0
+  - pylint=1.8.4=py36_0
+  - pyopenssl=18.0.0=py36_0
+  - pyparsing=2.2.0=py36h785a196_1
+  - pyqt=5.9.2=py36h1aa27d4_0
+  - pysocks=1.6.8=py36_0
+  - pytest=3.5.1=py36_0
+  - pytest-cov=2.5.1=py36h6ab2a5a_0
+  - python=3.6.5=h0c2934d_0
+  - python-dateutil=2.7.3=py36_0
+  - pytz=2018.4=py36_0
+  - pywinpty=0.5.1=py36_0
+  - pyzmq=17.0.0=py36hfa6e2cd_1
+  - qt=5.9.7=vc14h73c81de_0
+  - qtawesome=0.4.4=py36h5aa48f6_0
+  - qtconsole=4.3.1=py36h99a29a9_0
+  - qtpy=1.4.1=py36_0
+  - r-assertthat=0.2.0=mro351_0
+  - r-bh=1.66.0_1=mro351hf348343_0
+  - r-bindr=0.1.1=mro351_0
+  - r-bindrcpp=0.2.2=mro351_0
+  - r-bit=1.1_14=mro351_0
+  - r-bit64=0.9_7=mro351_0
+  - r-blob=1.1.1=mro351_0
+  - r-cli=1.0.0=mro351_0
+  - r-crayon=1.3.4=mro351_0
+  - r-dbi=1.0.0=mro351hf348343_0
+  - r-dbplyr=1.2.2=mro351_0
+  - r-digest=0.6.15=mro351_0
+  - r-dplyr=0.7.6=mro351_0
+  - r-fansi=0.2.3=mro351_0
+  - r-glue=1.3.0=mro351_0
+  - r-magrittr=1.5=mro351_0
+  - r-memoise=1.1.0=mro351_0
+  - r-pillar=1.3.0=mro351_0
+  - r-pkgconfig=2.0.1=mro351_0
+  - r-plogr=0.2.0=mro351_0
+  - r-prettyunits=1.0.2=mro351_0
+  - r-purrr=0.2.5=mro351_0
+  - r-r6=2.2.2=mro351hf348343_0
+  - r-rcpp=0.12.18=mro351hf348343_0
+  - r-revoutils=11.0.0=mro351_0
+  - r-revoutilsmath=11.0.0=mro351_0
+  - r-rlang=0.2.1=mro351_0
+  - r-rsqlite=2.1.1=mro351hf348343_0
+  - r-tibble=1.4.2=mro351_0
+  - r-tidyselect=0.2.4=mro351_0
+  - r-utf8=1.1.4=mro351_0
+  - requests=2.18.4=py36h4371aae_1
+  - rope=0.10.7=py36had63a69_0
+  - rpy2=2.9.4=py36mro351h39e3cac_0
+  - scikit-learn=0.19.1=py36h53aea1b_0
+  - scipy=1.1.0=py36h672f292_0
+  - seaborn=0.8.1=py36h9b69545_0
+  - send2trash=1.5.0=py36_0
+  - setuptools=39.1.0=py36_0
+  - simplegeneric=0.8.1=py36_2
+  - sip=4.19.8=py36h6538335_0
+  - six=1.11.0=py36h4db2310_1
+  - snowballstemmer=1.2.1=py36h763602f_0
+  - sphinx=1.7.4=py36_0
+  - sphinxcontrib=1.0=py36hbbac3d2_1
+  - sphinxcontrib-websupport=1.0.1=py36hb5e5916_1
+  - spyder=3.2.8=py36_0
+  - sqlite=3.28.0=he774522_0
+  - statsmodels=0.9.0=py36h452e1ab_0
+  - tbb=2018.0.2=h6538335_0
+  - terminado=0.8.1=py36_1
+  - testpath=0.3.1=py36h2698cfe_0
+  - tk=8.6.7=hcb92d03_3
+  - tornado=5.0.2=py36_0
+  - traitlets=4.3.2=py36h096827d_0
+  - traits=4.6.0=py36_0
+  - traitsui=6.0.0=py36_1
+  - typing=3.6.4=py36_0
+  - urllib3=1.22=py36h276f60a_0
+  - vc=14.1=h0510ff6_4
+  - vs2015_runtime=14.15.26706=h3a45250_4
+  - vtk=8.1.0=py36he6bbf13_201
+  - wcwidth=0.1.7=py36h3d5aa90_0
+  - webencodings=0.5.1=py36h67c50ae_1
+  - wheel=0.31.1=py36_0
+  - widgetsnbextension=3.2.1=py36_0
+  - win_inet_pton=1.0.1=py36he67d7fd_1
+  - wincertstore=0.2=py36h7fe50ca_0
+  - winpty=0.4.3=4
+  - wrapt=1.10.11=py36he5f5981_0
+  - zeromq=4.2.5=hc6251cf_0
+  - zlib=1.2.11=h8395fce_2
+  - pip:
+    - apptools==4.4.0
+    - astunparse==1.6.2
+    - brewer2mpl==1.4.1
+    - click==7.0
+    - colour==0.1.5
+    - commonmark==0.9.0
+    - configobj==5.0.6
+    - cython==0.29.4
+    - dash==0.36.0
+    - dash-core-components==0.43.0
+    - dash-daq==0.1.0
+    - dash-html-components==0.13.5
+    - dash-renderer==0.18.0
+    - dash-table==3.1.11
+    - dfply==0.3.3
+    - dplython==0.0.7
+    - envisage==4.6.0
+    - findspark==1.3.0
+    - flask==1.0.2
+    - flask-compress==1.4.0
+    - fooof==0.1.2
+    - geojson==2.4.1
+    - ggplot==0.11.5
+    - graphviz==0.12
+    - h2o==3.22.1.4
+    - hypothesis==3.82.5
+    - imageio==2.4.1
+    - imutils==0.5.1
+    - itsdangerous==1.1.0
+    - jupyter-contrib-core==0.3.3
+    - jupyter-contrib-nbextensions==0.5.0
+    - jupyter-highlight-selected-word==0.2.0
+    - jupyter-latex-envs==1.4.6
+    - jupyter-nbextensions-configurator==0.4.0
+    - lxml==4.2.5
+    - markdown==3.0.1
+    - mayavi==4.6.1.dev0
+    - meetup-api==0.1.1
+    - mlxtend==0.16.0
+    - mne==0.16.2
+    - mpld3==0.3
+    - nbsphinx==0.4.2
+    - neo==0.6.1
+    - nibabel==2.2.1
+    - nilearn==0.4.1
+    - nitime==0.7
+    - opencv-python==3.4.3.18
+    - pacpy==1.0.3.1
+    - pactools==0.2.0b0
+    - pixiedust==1.1.15
+    - plotly==3.5.0
+    - prespy==0.0.12
+    - purepng==0.2.0
+    - py4j==0.10.7
+    - pydocstyle==2.1.1
+    - pyprep==0.2.2
+    - pyqt5==5.12
+    - pyqt5-sip==4.19.14
+    - pyqtgraph==0.10.0
+    - pyspark==2.4.3
+    - pysurfer==0.9.dev0
+    - pytesseract==0.2.5
+    - pytest-faulthandler==1.5.0
+    - pytest-sugar==0.9.1
+    - python-picard==0.3
+    - pyyaml==3.13
+    - quantities==0.12.1
+    - recommonmark==0.5.0
+    - retrying==1.3.3
+    - rinoh-typeface-dejavuserif==0.1.1
+    - rinoh-typeface-texgyrecursor==0.1.1
+    - rinoh-typeface-texgyreheros==0.1.1
+    - rinoh-typeface-texgyrepagella==0.1.1
+    - rinohtype==0.3.1
+    - sphinx-bootstrap-theme==0.6.5
+    - sphinx-gallery==0.5.0.dev0
+    - sphinx-rtd-theme==0.4.3
+    - sphinxcontrib-applehelp==1.0.1
+    - sphinxcontrib-devhelp==1.0.1
+    - sphinxcontrib-htmlhelp==1.0.2
+    - sphinxcontrib-jsmath==1.0.1
+    - sphinxcontrib-qthelp==1.0.2
+    - sphinxcontrib-serializinghtml==1.1.3
+    - tabulate==0.8.3
+    - tensorly==0.4.3
+    - termcolor==1.1.0
+    - tesseract==0.1.3
+    - utah==0.9
+    - virtualenv==16.1.0
+    - werkzeug==0.14.1
